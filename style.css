@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    background-image: url("bg_img1.jpg");
+   background-size: cover;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-box{
+    background:cornflowerblue;
+   text-align:center;
+    padding:40px 90px;
+    color:#fff;
+    position:relative;
+    border-radius:20px;
+
+}
+
+.menu-icon{
+    width:25px;
+    position: absolute;
+    left:40px;
+    top:40px;
+
+}
+
+.setting-icon{
+    width:25px;
+    position: absolute;
+    right:40px;
+    top:40px;
+    /* margin-right:10px; */
+
+}
+
+.heart-icon{
+    width:25px;
+    position: absolute;
+    display: flex;
+    margin-left: 255px;
+    top:40px;
+}
+.user-img{
+    width:250px;
+    height:200px;
+    border-radius: 50%;
+    background-color: #fff;
+    padding:6px;
+}
+
+.social-media{
+    width:300px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+   
+}
+
+.insta{
+width:40px;
+/* margin-left: ; */
+}
+
+.yt{
+    width:40px;
+    margin-left:10px ;
+    }
+
+.tweet{
+    width:40px;
+    margin-left:10px ;
+    
+    }
+
+.profile-bottom{
+    background:#fff;
+    padding:60px 0;
+    margin-right:-90px;
+    margin-left:-90px;
+    margin-top:50px;
+    margin-bottom:-40px;
+    border-radius:20px;
+    border-top-left-radius: none;
+}
+.profile-bottom button{
+    background:#fff;
+    color:#ff574a;
+    border:1px solid #ff574a;
+    padding:10px 40px;
+    cursor:pointer;
+    border-radius:30px;
+    
+
+
+}
